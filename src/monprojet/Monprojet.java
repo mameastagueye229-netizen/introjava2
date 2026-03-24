@@ -1,0 +1,33 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package monprojet;
+
+/**
+ *
+ * @author DELL
+ */
+public class Monprojet {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+  
+    int nombreEntier = 10;
+    double nombreVirgule = 15.5;
+    float Decimal = 1.5f;
+    boolean Vrai = true;
+    String phrase = "Java";
+    char lettre = 'A';
+    System.out.println(nombreEntier);
+    System.out.println(nombreVirgule);
+    System.out.println(phrase);
+    System.out.println(Vrai);
+    System.out.println(lettre);
+    
+  }
+}
+    
