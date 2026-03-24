@@ -14,7 +14,7 @@ public class Monprojet {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+       /* System.out.println("Hello World");
   
     int nombreEntier = 10;
     double nombreVirgule = 15.5;
@@ -27,7 +27,19 @@ public class Monprojet {
     System.out.println(phrase);
     System.out.println(Vrai);
     System.out.println(lettre);
-    
+    */
+        String nom = "Dupont";
+        String prenom = "Pierre";
+        int anneeDeNaissance = 2002;
+
+        int age = 2026 - anneeDeNaissance;
+
+        String nomComplet = prenom + " " + nom;
+
+        System.out.println(age);
+        System.out.println(nomComplet);
+
+        System.out.println(prenom + " " + nom + " est né en " + anneeDeNaissance + " il a donc " + age + " ans");
   }
 }
     
