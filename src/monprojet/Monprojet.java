@@ -40,7 +40,7 @@ public class Monprojet {
         System.out.println(nomComplet);
 
         System.out.println(prenom + " " + nom + " est né en " + anneeDeNaissance + " il a donc " + age + " ans");
-  */
+ 
        int a = 5;
        int b = 5;
 
@@ -49,6 +49,16 @@ public class Monprojet {
        } else {
         System.out.println("a et b sont différents");
        }
+ */
+       int a = 5;
+int b = 5;
+int c = 5;
+
+if (a == b && b == c) {
+    System.out.println("Les trois variables sont egales");
+} else {
+    System.out.println("Les trois variables ne sont pas identiques");
+}
 }
 
 }
