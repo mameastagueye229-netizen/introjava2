@@ -27,7 +27,7 @@ public class Monprojet {
     System.out.println(phrase);
     System.out.println(Vrai);
     System.out.println(lettre);
-    */
+    
         String nom = "Dupont";
         String prenom = "Pierre";
         int anneeDeNaissance = 2002;
@@ -40,6 +40,16 @@ public class Monprojet {
         System.out.println(nomComplet);
 
         System.out.println(prenom + " " + nom + " est né en " + anneeDeNaissance + " il a donc " + age + " ans");
-  }
+  */
+       int a = 5;
+       int b = 5;
+
+       if (a == b) {
+       System.out.println("a = b");
+       } else {
+        System.out.println("a et b sont différents");
+       }
+}
+
 }
     
